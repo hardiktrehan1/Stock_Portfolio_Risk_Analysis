@@ -1,22 +1,35 @@
 # Stock_Portfolio_Risk_Analysis
-In this project, I developed a comprehensive risk analysis tool using Python to evaluate the performance and risk-return profile of a diversified stock portfolio consisting of Mastercard, Visa, Coinbase, and Robinhood.
+# 📊 Stock Portfolio Risk Analysis (Python - Jupyter Notebook)
 
-The analysis integrates quantitative finance techniques and leverages historical market data to assess both systematic and unsystematic risk exposures. The key metrics computed include:
+This project provides a comprehensive **risk and performance analysis** of a 4-stock portfolio consisting of **Mastercard (MA)**, **Visa (V)**, **Coinbase (COIN)**, and **Robinhood (HOOD)** using **Python and Jupyter Notebook**.
 
-Simple and Log Returns for accurate return decomposition
+---
 
-Volatility as a measure of total risk
+## 🚀 Tools & Libraries
+- Python (Jupyter Notebook - Anaconda)
+- NumPy, Pandas, Matplotlib, Seaborn
+- yFinance (for data)
+- SciPy
 
-Sharpe Ratio, Sortino Ratio, and Calmar Ratio for risk-adjusted performance
+---
 
-Treynor Ratio to evaluate returns relative to systematic risk
+## 📈 Metrics Analyzed
 
-Alpha & Beta to understand excess returns and market sensitivity
+| Category                | Metrics Used                                                                 |
+|-------------------------|------------------------------------------------------------------------------|
+| **Returns**             | Simple Returns, Log Returns                                                  |
+| **Risk**                | Volatility, Maximum Drawdown                                                 |
+| **Risk-Adjusted Return**| Sharpe Ratio, Sortino Ratio, Treynor Ratio, Calmar Ratio                     |
+| **Market Sensitivity**  | Alpha, Beta                                                                  |
+| **Tail Risk Measures**  | Value at Risk (VaR) and Conditional VaR (Expected Shortfall) at 90%, 95%, 99%|
 
-Maximum Drawdown to quantify worst historical losses
+---
 
-Value at Risk (VaR) at 90%, 95%, and 99% confidence levels to estimate potential losses
+## 📌 Project Structure
 
-Conditional VaR (Expected Shortfall) at the same levels to capture tail-end risk exposure beyond the VaR threshold
-
-This end-to-end analysis was built using NumPy, Pandas, and Matplotlib/Plotly for computation and visualization. The result is a robust framework that not only quantifies the risk and performance of each stock but also captures the behavior of the portfolio under various market stress scenarios, helping inform better investment decisions.
+```bash
+📁 portfolio-risk-analysis/
+├── portfolio_risk_analysis.ipynb     # Main analysis notebook
+├── README.md                         # Project overview
+├── requirements.txt                  # Python dependencies
+└── .gitignore                        # Git ignore file
