@@ -25,11 +25,3 @@ This project provides a comprehensive **risk and performance analysis** of a 4-s
 
 ---
 
-## 📌 Project Structure
-
-```bash
-📁 portfolio-risk-analysis/
-├── portfolio_risk_analysis.ipynb     # Main analysis notebook
-├── README.md                         # Project overview
-├── requirements.txt                  # Python dependencies
-└── .gitignore                        # Git ignore file
