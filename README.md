@@ -7,7 +7,7 @@ This project provides a comprehensive **risk and performance analysis** of a 4-s
 
 ## 🚀 Tools & Libraries
 - Python (Jupyter Notebook - Anaconda)
-- NumPy, Pandas, Matplotlib, Seaborn
+- NumPy, Pandas, Matplotlib, Seaborn, plotly
 - yFinance (for data)
 - SciPy
 
